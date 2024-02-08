@@ -1,0 +1,13 @@
+{
+  "exclude": ["node_modules", "public/assets", "JS/Svelte"],
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  }
+}

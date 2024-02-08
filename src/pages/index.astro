@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import App from "../components/App.svelte";
+---
+
+<Layout title="Welcome to Astro.">
+  <main class="grid place-content-center min-h-screen w-screen">
+    <h1 class="text-6xl opacity-70 font-bold text-center pb-10">
+      <section class="container w-[1000px] max-w-xl h-64">
+        <App client:idle />
+      </section>
+    </h1>
+  </main>
+</Layout>
+
+<style></style>
