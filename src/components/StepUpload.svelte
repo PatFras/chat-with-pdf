@@ -23,7 +23,7 @@
       const formData = new FormData();
       formData.append("file", acceptedFiles[0]);
 
-      const res = await fetch(".netlify/functions/upload", {
+      const res = await fetch("/upload", {
         method: "POST",
         body: formData,
       });
