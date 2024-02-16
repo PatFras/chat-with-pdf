@@ -1,5 +1,5 @@
 <script>
-  import { APP_STATUS, appStatus } from "@/store";
+  import { APP_STATUS, appStatus } from "../store";
   import { Alert } from "flowbite-svelte";
   import StepUpload from "./StepUpload.svelte";
   import StepLoading from "./StepLoading.svelte";

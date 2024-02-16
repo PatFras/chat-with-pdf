@@ -1,6 +1,5 @@
 <script>
   import {
-    appStatus,
     setAppStatusLoading,
     setAppStatusError,
     setAppStatusChatMode,
@@ -28,13 +27,14 @@
         method: "POST",
         body: formData,
       });
+
       if (!res.ok) {
         setAppStatusError();
         return;
       }
-      const result = await res.json();
-      console.log(result);
-      setAppStatusChatMode(result);
+
+      const { id, url, pages } = await res.json();
+      setAppStatusChatMode({ id, url, pages });
     }
   }
 </script>
@@ -43,7 +43,7 @@
   <Dropzone
     accept="application/pdf"
     multiple={false}
-    on:drop={handleFilesSelect}>Arrastra y suelta aquí tu pdf</Dropzone
+    on:drop={handleFilesSelect}>Arrastra y suelta aquí tu PDF</Dropzone
   >
 {/if}
 
