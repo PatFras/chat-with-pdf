@@ -1,10 +1,11 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
-
+import vercelAdapter from "@astrojs/vercel-adapter";
 import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), svelte({ preprocess: [] })],
-  output: "server",
+  adapter: vercelAdapter(),
+  output: "static",
 });
