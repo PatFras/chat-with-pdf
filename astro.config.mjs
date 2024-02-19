@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
-import vercelAdapter from "@astrojs/vercel-adapter";
+import vercelAdapter from "@sveltejs/adapter-vercel";
 import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
