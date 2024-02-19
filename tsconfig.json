@@ -2,8 +2,6 @@
   "exclude": ["node_modules", "public/assets", "JS/Svelte"],
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "esModuleInterop": true,
-    "verbatimModuleSyntax": true,
     "moduleResolution": "Node",
     "baseUrl": ".",
     "paths": {

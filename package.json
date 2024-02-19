@@ -11,11 +11,8 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.5.1",
-    "@astrojs/netlify": "^5.1.2",
-    "@netlify/functions": "^2.6.0",
     "astro": "^4.3.5",
     "cloudinary": "^2.0.1",
-    "netlify-cli": "^17.16.3",
     "openai": "^4.28.0",
     "svelte": "^4.2.10",
     "svelte-file-dropzone": "^2.0.4",

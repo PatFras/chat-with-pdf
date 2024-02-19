@@ -28,7 +28,9 @@
     searchParams.append("question", question);
 
     try {
-      const eventSource = new EventSource(`/ask?${searchParams.toString()}`);
+      const eventSource = new EventSource(
+        `/api/ask?${searchParams.toString()}`
+      );
 
       eventSource.onmessage = (event) => {
         loading = false;

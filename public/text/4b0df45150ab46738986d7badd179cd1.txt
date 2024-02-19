@@ -1,0 +1,379 @@
+Tester QA Manual
+Módulo 1
+educación I
+CODE YOUR FUTURE
+Conceptos de testing
+educación I
+CODE YOUR FUTURE
+Tester QA Manual
+Contenido
+• Qué es testing.
+• Para qué testeamos.
+• Visión del testing.
+. Actividades del Analista QA/Tester.
+• Validación vs. Verificación.
+• Error, falla, defecto.
+• Trazabilidad.
+. Ciclo de vida del testing.
+I
+educación IT
+educación IT
+Tester QA Manual
+¿Qué es el testing?
+"Es el proceso que consiste en todas las activida-
+des del ciclo de vida, estáticas y dinámicas, rela-
+cionadas con la planificación, preparación y
+evaluación de productos de software y productos
+relacionados con el trabajo para determinar
+que cumplen los requisitos especificados, para
+demostrar que son aptos para el propósito y para
+detectar defectos."
+ISTQB
+educación IT
+El testing involucra toda la actividad que hará
+el Tester desde que comienza a conocer el
+requerimiento solicitado, hasta que interactúa
+con el sistema. Está compuesto por actividades
+que permiten cuantificar la calidad de un
+sistema en un momento determinado.
+El testing no es únicamente evaluar el sistema
+cuando está listo, incluye actividades de
+relevamiento del requerimiento para evaluar
+factibilidad, pruebas preliminares con entregas
+parciales, entre otras actividades, siempre con el
+espíritu de mejorar la calidad del sistema que se
+entregará al usuario final.
+Tester QA Manual
+¿Qué logramos con el testing?
+• Permite cuantificar la calidad de un sistema
+en un momento determinado.
+• Permite identificar defectos para que sean
+corregidos antes de que el sistema llegue al
+usuario final.
+• Permite mostrar a los involucrados cómo está
+el sistema, por medio de informes de avance,
+para que tomen la decisión que defina si el
+sistema está listo o no para los usuarios
+finales.
+educación IT
+Tester QA Manual
+Visión del testing
+Visión histórica del testing
+Inicialmente, el testing era concebido como
+una actividad donde los Testers 'marcaban'
+los errores que tenía un sistema.
+Se pensaba que el único objetivo del testing
+era mostrar dónde estaba 'mal'.
+Histórica
+(cerrada)
+educación IT
+Proceso de correr aplicativos
+para encontrar defectos
+Tester QA Manual
+Visión actual del testing
+Actualmente, el testing tiene una misión que va
+más allá de identificar errores. Ésta incluye:
+• Evaluar un sistema para corroborar en qué
+medida cumple con lo solicitado por el usuario.
+• Identificar fallas en el sistema para que sean
+corregidas antes que llegue a manos del
+usuario final.
+En resumen, el testing está orientado a que el
+sistema a entregar al usuario sea mejor al que
+recibe y que la forma de hacerlo sea cada vez
+más eficiente.
+Actual
+(abierta)
+educación IT
+Proceso inmerso en la mejora
+continua de la calidad
+Tester QA Manual
+¿Para qué testeamos?
+Propósito:
+• Para detectar y resolver problemas tan pronto
+como sea posible.
+• Para verificar que las pruebas cumplan con el
+requerimiento.
+• Para generar compromiso en los usuarios.
+• Para trabajar con cero defecto desde el principio.
+En la diapositiva siguiente, veremos cada uno en detalle.
+educación IT
+Tester QA Manual
+• Para detectar y resolver problemas tan
+pronto como sea posible: El Tester debe
+identificar cualquier desviación entre lo que
+observa en el sistema y lo que el usuario
+espera, antes que el sistema llegue al usuario
+final. Así estará mejorando su calidad.
+• Para verificar que las pruebas cumplan con
+el requerimiento: El Tester debe conocer lo
+que el usuario espera, para poder corroborar si
+el sistema cumple con dicha expectativa. Si se
+cumple, el sistema tendrá mejor calidad.
+educación IT
+• Para generar compromiso en los usuarios: El
+testing da cierta garantía a los usuarios sobre
+la revisión del sistema, con lo cual gana su
+confianza sobre la calidad ofrecida.
+• Para trabajar con cero defectos desde el
+principio: El Tester participa desde las etapas
+tempranas del desarrollo, para alcanzar la
+mejor calidad posible en el sistema a entregar
+y en el proceso para lograrlo.
+Tester QA Manual
+Actividades del Analista QA / Tester
+1. Confeccionar estrategias y planes de prueba
+El Tester debe conocer el requerimiento solicitado por
+el usuario y en función a ello, definir qué pruebas debe
+hacer y qué necesitará para llevarlas a cabo.
+Por ejemplo: Si el Tester recibe un requerimiento para evaluar
+un sistema educativo, probablemente una de las pruebas que
+tenga que hacer será la usabilidad de la interfaz de usuario.
+educación IT
+Tester QA Manual
+2. Analizar requisitos y/o requerimientos
+Al conocer sobre el requerimiento solicitado por
+el usuario, el Tester debe indagar para tener el
+detalle y poder ponerse en el lugar del usuario.
+Será importante hacer preguntas, comprobar
+asunciones y compartir conclusiones, porque
+entender del requerimiento es el primer paso de
+un proceso de prueba exitoso.
+educación IT
+3. Diseñar de casos de prueba
+Consiste en listar las pruebas que debe ejecutar
+el Tester cuando tenga interacción con el sistema.
+Estas pruebas deberán priorizarse y detallarse
+según la metodología lo permita.
+4. Establecer ambientes de prueba
+Consiste en preparar el ambiente donde se
+llevarán a cabo las pruebas, instalar software
+o herramientas para la ejecución de pruebas,
+solicitar configuraciones especiales según el
+requerimiento, etc.
+Tester QA Manual
+5. Generar set de datos de prueba
+Consiste en buscar o preparar los datos a
+utilizar para ejecutar las pruebas.
+Por ejemplo: Si necesitamos hacer una prueba de
+Login, probablemente necesitaremos buscar los
+datos de un usuario previamente registrado.
+6. Ejecutar casos de prueba
+Consiste en interactuar con el sistema, de
+acuerdo a las pruebas que fueron definidas
+durante el diseño de casos de prueba. Como
+parte de la ejecución de pruebas, se identificarán
+fallas, que deberán reportarse oportunamente.
+educación IT
+7. Administrar, registrar e informar las pruebas
+Las pruebas que se ejecuten, requieren soportes
+(evidencias) según el caso y llevar el control
+sobre cuáles se han ejecutado y cuál ha sido el
+resultado de cada una.
+Una prueba puede ser exitosa o fallida y esto
+determina la calidad del sistema en un momento
+determinado.
+Tester QA Manual
+8. Realizar reportes y seguimiento de defectos
+Al encontrar una falla, el Tester debe generar un
+reporte con evidencia, que le permita al desarro-
+llador conocer la información necesaria para el
+diagnóstico correspondiente.
+Cada falla que se reporta debe ser gestionada
+por el Tester para que, según su prioridad, sea
+corregida antes que el sistema esté disponible al
+usuario final.
+educación IT
+9. Elaborar avances de prueba e informes
+finales
+El Tester debe dar visibilidad sobre el estado de
+la calidad del sistema, en todo momento. Para
+ello, elabora reportes de avance que muestran
+por ejemplo la cantidad de casos de prueba
+ejecutados exitosamente, lo que ayuda a tener
+una noción sobre cuánta calidad tiene el sistema.
+Tester QA Manual
+10. Llevar indicadores de gestión
+Consiste en medir las actividades del proceso de
+pruebas, para evaluar el desempeño del equipo,
+del sistema. Y en función a ellos, definir acciones
+que permitan mejorar los resultados generados.
+11. Asistir a usuarios en el UAT
+Consiste en dar soporte a los usuarios cuando
+interactúan por primera vez con el sistema, a
+fin de facilitar el proceso de revisión y posterior
+aprobación del requerimiento.
+educación IT
+Tester QA Manual
+En resumen:
+1. Confeccionar estrategias y planes de prueba.
+2. Analizar requisitos y/o requerimientos.
+3. Diseñar de casos de prueba.
+4. Establecer ambientes de prueba.
+5. Generar set de datos de prueba.
+6. Ejecutar casos de prueba.
+educación IT
+7. Administrar, registrar e informar las pruebas.
+8. Realizar reportes y seguimiento de defectos.
+9. Elaborar avances de prueba e informes finales.
+10. Llevar indicadores de gestión.
+11. Asistir a usuarios en el UAT.
+Tester QA Manual
+Validación vs. Verificación
+Responde a las siguientes preguntas:
+¿Es esta la especificación correcta?
+Apunta a Validación
+¿Es el sistema correcto para la especificación?
+Fuente: ISTQB: International Software Testing Qualifications Board
+educación IT
+Apunta a Verificación
+Tester QA Manual
+Error, falla, defecto
+• Error: Equivocación humana.
+• Falla: Diferencia entre el resultado esperado y el
+obtenido.
+• Defecto: Desperfecto que puede causar que un
+componente o sistema falle.
+Fuente: ISTQB, International Software Testing Qualifications Board
+educación IT
+X
+Tester QA Manual
+Error
+• Es la acción humana de equivocarse. Todos
+podemos equivocarnos.
+• En el contexto de las pruebas, se refiere a que
+alguien puede equivocarse cuando crea un
+sistema o un requerimiento para un usuario.
+Defecto
+educación IT
+• Desperfecto que puede causar que un
+componente o sistema falle.
+• Es una parte del sistema que no es correcta.
+Por ejemplo, una sintaxis, una regla de
+negocio que no fue implementada como se
+esperaba y queda en el código fuente.
+Tester QA Manual
+Falla
+• Diferencia entre el resultado esperado y el
+obtenido.
+• Es lo que puede ver el usuario final y no es lo
+que había solicitado o esperaba ver.
+educación IT
+(X) Ocurrió un error.
+Aceptar
+Cancelar
+Tester QA Manual
+Trazabilidad
+"Capacidad de identificar elementos relacionados
+en la documentación y el software, tales como
+requisitos con las pruebas asociadas."
+ISTQB
+0
+educación IT
+Tester QA Manual
+Ciclo de vida del testing (tradicional)
+Ciclo de vida del desarrollo del SW (tradicional)
+Analista funcional / de procesos
+Análisis Plan de
+de Req.
+Proyecto
+Análisis
+de Req.
+Análisis y diseño
+detallado
+Plan de
+Pruebas
+Ciclo de vida del testing (tradicional)
+Analista QA
+Desarrollador
+Análisis de
+Escena & CP
+Construcción
+(Código)
+Diseño
+de CPs
+Construc.
+de CPs
+Tester (old)
+Pruebas de SW
+Test Unitario
++
+OK del Cliente
+Tester
+Test de
+Integración
+Test de
+Sistemas
+UAT
+educación IT
+Prod
+SW
+Prod
+SW
+Tiempo
+Tiempo
+Tester QA Manual
+En el ciclo de vida del testing (tradicional):
+• El Analista QA se encarga de relevar el requerimiento
+solicitado por el usuario y diseñar las pruebas que
+habrá que hacer para evaluar la calidad del sistema.
+• El Tester ejecutará las pruebas cuando esté en
+interacción con el sistema, registrará las pruebas
+exitosas y reportará las fallas que encuentre.
+educación IT
+Tester QA Manual
+Ciclo de vida del testing (marco Agile)
+Información de los ejecutivos,
+el equipo, los implicados, los
+clientes, usuarios, etc.
+Product owner
+Tareas
+priorizadas
+Product
+Backlog
+QA/Tester
+Sprint
+Planning
+Meeting
+Team
+El equipo indica las tareas
+que cumplirá en el Sprint Tareas
+Tareas
+Sprint
+Backlog
+Burndown
+Scrum Master
+Sprint
+2a4
+semanas
+Cada
+24 hs.
+La fecha de finalización y
+las tareas no deben cambiar
+g
+- Daily Scrum
+Meeting
+Trabajo
+finalizado
+educación IT
+Sprint Review
+Sprint
+Retrospective
+Tester QA Manual
+En el marco de trabajo Agile, el QA/Tester está
+conformando el Team. Su misión es trabajar
+cerca del desarrollador, previniendo defectos.
+Bajo este enfoque, el QA/Tester participa en
+todas las fases del desarrollo.
+educación IT
+Tester QA Manual
+Revisión
+• Repase los puntos vistos en la clase.
+• Realice las preguntas necesarias al o la docente
+antes de continuar.
+• Realice los ejercicios de la práctica.
+educación IT
+¡Sigamos
+trabajando!
+educación I
+CODE YOUR FUTURE

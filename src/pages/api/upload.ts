@@ -1,13 +1,13 @@
 import type { APIRoute } from "astro";
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import {v2 as cloudinary, type UploadApiResponse} from 'cloudinary';
 
+import {v2 as cloudinary, type UploadApiResponse} from 'cloudinary';
           
 cloudinary.config({ 
   cloud_name: 'dqtmqzix9', 
   api_key: '759599397434926', 
-  api_secret: process.env.cloudinary_secret 
+  api_secret: import.meta.env.cloudinary_secret 
 });
 
 const outputDir = path.join(process.cwd(), 'public/text')

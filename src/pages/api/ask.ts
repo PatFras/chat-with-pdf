@@ -1,11 +1,11 @@
 import { type APIRoute } from "astro";
 import {readFile} from 'node:fs/promises';
-import { responseSSE } from "../../src/utils/sse";
+import { responseSSE } from "../../utils/sse";
 
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY
+    apiKey: import.meta.env.OPENAI_API_KEY
 })
 
 export const GET: APIRoute = async ({request}) => {
