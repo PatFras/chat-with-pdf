@@ -7,5 +7,5 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   integrations: [tailwind(), svelte({ preprocess: [] })],
   adapter: vercelAdapter(),
-  output: "hybrid",
+  output: "static",
 });
