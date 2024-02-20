@@ -29,7 +29,7 @@
 
     try {
       const eventSource = new EventSource(
-        `https://livepdf.vercel.app/api/ask?${searchParams.toString()}`
+        `/api/ask?${searchParams.toString()}`
       );
 
       eventSource.onmessage = (event) => {
