@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "src": "/api/upload",
+        "dest": "/api/upload"
+      },
+      {
+        "src": "/api/ask",
+        "dest": "/api/ask"
+      }
+    ]
+  }
