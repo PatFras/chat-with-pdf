@@ -1,12 +1,8 @@
 {
-    "routes": [
-      {
-        "src": "/api/upload",
-        "dest": "/api/upload"
-      },
-      {
-        "src": "/api/ask",
-        "dest": "/api/ask"
-      }
-    ]
-  }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/api/upload", "dest": "./src/pages/api/upload.ts" },
+    { "src": "/api/ask", "dest": "./src/pages/api/ask.ts" },
+    { "src": "/(.*)", "dest": "./src/pages/index.astro" }
+  ]
+}
