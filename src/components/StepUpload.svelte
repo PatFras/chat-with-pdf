@@ -23,7 +23,7 @@
       const formData = new FormData();
       formData.append("file", acceptedFiles[0]);
 
-      const res = await fetch("https://livepdf.vercel.app/api/upload", {
+      const res = await fetch("/api/upload", {
         method: "POST",
         body: formData,
       });
